@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+  }
+
+#quote {
+    background-color: #D43D26;
+}
+
+#about-us {
+    border: 1px solid #000000;
+}
+
+#try-now, #contact {
+    border: 1px solid #1AAEC8;
+}
+
+input, textarea {
+    border: 1px solid #1E1E1ECC;
+    opacity: 80%;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  #section3{
+    background-color: white;
+    border-radius: 7px;
+  }
+    
+  #quote-1 {
+    position: fixed;
+    background-color: white;
+    z-index: 100; 
+  }
+  
+  #quote-1.visible{
+    display: block; 
+  }
+}
+
+
+#try-now:hover #arrow {
+    display: inline;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+  }
+
+
+  #contact-us:hover + #reach-out-to-us {
+    display: block;
+  }
+
+
+
+
+#menu-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100; 
+  }
+  
+  #menu-1.visible{
+    display: block; 
+  }
+
+
+  #quote-1 {
+    position: fixed;
+    background-color: white;
+    z-index: 100; 
+  }
+  
+  #quote-1.visible{
+    display: block; 
+  }
+
+
+
+
+
+
+
+
+  
