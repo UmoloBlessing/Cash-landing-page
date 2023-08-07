@@ -57,6 +57,11 @@ input, textarea {
   }
 
 
+.quote:hover {
+    background-color: #ff2f05;
+    box-shadow: 3px 3px 10px 5px #e3b1a6;
+}
+
 
 
 #menu-1 {

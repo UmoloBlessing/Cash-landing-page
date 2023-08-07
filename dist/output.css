@@ -534,10 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.visible {
-  visibility: visible;
-}
-
 .absolute {
   position: absolute;
 }
@@ -951,6 +947,11 @@ input, textarea {
 
 #contact-us:hover + #reach-out-to-us {
   display: block;
+}
+
+.quote:hover {
+  background-color: #ff2f05;
+  box-shadow: 3px 3px 10px 5px #e3b1a6;
 }
 
 #menu-1 {
