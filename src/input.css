@@ -68,7 +68,7 @@ input, textarea {
     z-index: 100; 
   }
   
-  #menu-1.visible{
+  #menu-1.open{
     display: block; 
   }
 
@@ -79,7 +79,7 @@ input, textarea {
     z-index: 100; 
   }
   
-  #quote-1.visible{
+  #quote-1.open{
     display: block; 
   }
 
